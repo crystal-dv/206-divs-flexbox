@@ -97,15 +97,40 @@ textarea {
 
 
 html {
-  background-color: #ccccff;
   height: 100%;
 }
 
 body {
+  background: url(../img/black-leaf-tree-background.jpg) no-repeat center center fixed;
+  background-size: cover;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 2rem;
+  color: #ccccff;
   font-size: 1.25em;
   height: 100%;
+}
+
+header span {
+  font-family: 'Marck Script', cursive;
+  font-size: 1.5em;
+}
+
+#intro span {
+  font-family: 'Lora', sans-serif;
+}
+
+header, #intro, .title, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgba(43,43,43,0.7);
+  width: 90%;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+#intro, .title, footer {
+  font-size: 1.5em;
 }
 
 .wrapper {
@@ -113,6 +138,9 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
+  width: 90%;
+  margin: 2rem;
+  padding: 1rem;
 }
 
 .div-1, .div-2, .div-3 {
@@ -121,17 +149,21 @@ body {
   width: 30%;
   justify-content: center;
   align-items: center;
-  color: #ccccff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #4d4dff;
-  height: 300px;
+  background: rgba(77, 77, 255, 0.7);
+  height: auto;
+  padding: 0.5em;
 }
 
 .border {
   border-right: 3px solid #2b2b2b;
   margin-right: 1em;
   margin-left: 1em;
+}
+
+footer {
+  font-family: 'Marck Script', cursive;
 }
 
 
